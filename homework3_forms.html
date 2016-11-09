@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>homework3_forms</title>
+	</head>
+	<body>
+		<header>
+			<h1>Урок "Формы": теги и их атрибуты.</h1>
+			<h3>Расскажите немного осебе</h3>
+		</header>
+		<p>
+			Попробуйте создать аналогичную форму. Для целей демонстрации вполне пойдут и вымышленные.
+		</p>
+		<form>
+			<fieldset>
+				<legend><b>Коротко о себе</b></legend>
+				<p>
+					<label for="name">Имя:</label>
+					<input id="name" type="text" name="text">
+				</p>
+				<p> 
+					<label for="name">Фамилия:</label>
+					<input type="text" name="text">
+				</p>
+				<p>
+					Пол: <input type="radio" name="text" checked> Мужской <input type="radio" name="text"> Женский
+				</p>
+				<p>
+					<label for="name">Возраст:</label>
+					<input type="text" name="text"> лет 
+				</p>
+			</fieldset>
+		</form>
+		<form>
+			<fieldset>
+				<legend><b>Подробнее о себе</b></legend>
+				<p>
+					<input type="radio" name="text" checked> Молодой человек<br>
+					<input type="radio" name="text"> Девушка<br>
+					<input type="text" name="text"><label for="name">Дата рождения</label><br>
+					<input type="text" name="text"><label for="name">Семейное положение</label><br>
+					<input type="text" name="text"><label for="name">Социальный статус</label><br>
+					<input type="text" name="text"><label for="name">Местожительство</label>
+				</p>
+				<p>
+					<b>Что вы обычно делаете на выходных:</b>
+				</p>
+				<p>
+					<input type="checkbox" name="text">Сплю<br>
+					<input type="checkbox" name="text">Гуляю с друзьями<br>
+					<input type="checkbox" name="text">Хожу на рыбалку<br>
+					<input type="checkbox" name="text">Играю в игры<br>
+				</p>
+				<p>
+					<b>Рассказать о формах в книге, посвященной HTML:</b>
+				</p>
+				<p>
+					<b>Сколько книг вы прочитали за свою жизнь:</b>
+				</p>
+				<p>
+					<select size="1">
+						<option>Site frequency</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</p>
+				<p>
+					<input type="radio" name="text"> 0-10<br>
+					<input type="radio" name="text"> 11-20<br>
+					<input type="radio" name="text"> 21-50<br>
+					<input type="radio" name="text"> 50+<br>
+				</p>
+				<p>
+					<b>Ваши комментарии:</b><br>
+					<textarea name="mess" rows="10" cols="50"></textarea><br>
+                    <select size="3">
+						<option>Первая позиция</option>
+						<option>Вторая позиция</option>
+						<option>Третяя позиция</option>
+					</select>				
+				</p>
+				
+			</fieldset>
+		</form>
+		<form>
+			<fieldset>
+				<legend><b>И в заключении</b></legend>
+				<input type="text" name="text" placeholder="Это поле было введено для вас" size="30">
+				<p>
+					<b>Email:</b><br>
+					<input type="text" name="text">
+				</p>
+				<p>
+					<b>Хотите подписаться на самую модную рассылку спама?</b><br>
+					<i>Выберете категории</i>
+				</p>
+				<p>
+					<input type="checkbox" name="text">Оборудование<br>
+					<input type="checkbox" name="text">Как приготовить обеды<br>
+					<input type="checkbox" name="text">Заработай миллион за 2 дня!<br>
+				</p>
+				<p>
+					<b>На сколько сложная задача:</b>
+				</p>
+				<p>
+					<input type="radio" name="text" checked>Совсем нет<br>
+					<input type="radio" name="text">Так себе<br>
+					<input type="radio" name="text">Еле справились<br>
+				</p>
+			</fieldset>
+				<p>
+					<input type="submit" name="submit" value="Отправить">
+				</p>
+		</form>
+	</body>
+	<footer>
+		<i>Write by Andrii Panasenko<i>
+	</footer>
+</html>
